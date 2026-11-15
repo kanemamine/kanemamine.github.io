@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — Synkra</title>
+<meta name="description" content="Comment Synkra traite tes données : contenu local, compte facultatif, statistiques d&#x27;usage, achats.">
+<link rel="canonical" href="https://kanemamine.github.io/synkra/confidentialite/">
+<style>
+  :root { --fond:#faf9f7; --texte:#1c1a2e; --doux:#5f5b72; --accent:#5246e0; --bord:#e8e4dc; }
+  @media (prefers-color-scheme: dark) { :root { --fond:#161427; --texte:#f2f0fa; --doux:#b7b2cc; --accent:#9d94ff; --bord:#34304f; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--fond); color:var(--texte); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 64px; overflow-wrap:anywhere; }
+  nav { font-size:.95rem; margin:0 0 24px; }
+  a { color:var(--accent); }
+  h1 { font-size:1.7rem; line-height:1.2; margin:0 0 8px; letter-spacing:-0.01em; }
+  h2 { font-size:1.35rem; margin:40px 0 8px; }
+  h3 { font-size:1.05rem; margin:28px 0 6px; }
+  p, ul, ol { margin:0 0 12px; }
+  li { margin:4px 0; }
+  em { color:var(--doux); }
+  code { font-size:.92em; background:var(--bord); padding:1px 5px; border-radius:6px; }
+  hr { border:0; border-top:1px solid var(--bord); margin:40px 0; }
+  footer { margin-top:48px; font-size:.95rem; color:var(--doux); }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="/synkra/">← Synkra</a></nav>
+<h1>Politique de confidentialité — Synkra / Privacy Policy — Synkra</h1>
+<p><em>Dernière mise à jour : 14 novembre 2026</em></p>
+<h2>Français</h2>
+<p><strong>Synkra</strong> (« l'application ») respecte ta vie privée. Cette politique explique quelles données sont traitées, où, et pourquoi.</p>
+<h3>Sans compte : ton contenu reste sur ton téléphone</h3>
+<p>Synkra fonctionne <strong>sans compte</strong>. Tes sessions Focus, tes séances et leur historique, tes tâches, sous-tâches et catégories, et ton profil (le nom et la couleur que tu choisis) sont enregistrés <strong>sur ton téléphone</strong>. Ce contenu ne quitte pas ton téléphone sans ton choix : te connecter ne l'envoie pas. Il n'est importé dans ton compte que si tu le demandes explicitement (Compte → « Importer mes données locales », puis « Réunir »). Deux envois ont lieu même sans compte, et aucun ne contient ce contenu : les <strong>statistiques d'usage associées à un identifiant aléatoire</strong> (activées par défaut, désactivables dans Réglages → Statistiques d'usage) et, si tu achètes ou restaures Synkra Pro, la <strong>vérification de l'achat</strong>, qui ne demande aucun compte Synkra — détails plus bas. La sauvegarde automatique d'Android est désactivée pour ces données.</p>
+<h3>Avec un compte (facultatif)</h3>
+<p>Si tu te connectes avec Google :</p>
+<ul><li><strong>Adresse e-mail et identifiant de compte</strong> : reçus de Google, pour créer et identifier ton compte ;</li><li><strong>Ton contenu</strong> (sessions, séances, tâches, sous-tâches, catégories, profil) : ce que tu crées une fois connecté est synchronisé chez notre hébergeur <strong>Supabase</strong>, transmis de façon chiffrée (HTTPS), pour le retrouver sur tes appareils. Ce qui était déjà sur le téléphone n'y est envoyé qu'après ton choix d'import (voir plus haut).</li></ul>
+<p>Nous <strong>ne vendons pas</strong> tes données et ne les utilisons <strong>pas à des fins publicitaires</strong>.</p>
+<h3>Achats (Synkra Pro)</h3>
+<p>Synkra Pro est un <strong>abonnement Google Play</strong> (mensuel ou annuel ; 14 jours gratuits pour les nouveaux abonnés éligibles). Le paiement est traité par <strong>Google Play</strong> : nous ne recevons ni ta carte, ni ton adresse de facturation. Pour vérifier un achat — au moment de l'achat, quand tu touches « Restaurer mes achats », et à l'ouverture de l'application tant qu'un achat existe —, l'application envoie le <strong>jeton d'achat</strong> que Google Play lui remet à notre serveur, qui interroge Google et répond aussitôt ; ce jeton n'est <strong>ni conservé, ni journalisé</strong>. Ton téléphone garde seulement le nom du produit, son état et sa date d'échéance, pour fonctionner hors ligne. Synkra Pro est lié à ton <strong>compte Google Play</strong>, pas à un compte Synkra : aucun compte Synkra n'est nécessaire pour acheter ou restaurer.</p>
+<h3>Statistiques d'usage</h3>
+<p>Dans la version actuelle, une seule mesure est envoyée : <strong>l'ouverture de l'application</strong>, sans aucun contenu, à <strong>PostHog</strong>, sur des serveurs situés dans l'<strong>Union européenne</strong>. Elle est associée à un <strong>identifiant aléatoire</strong> créé par l'application, jamais à ton compte Synkra ni à ton adresse e-mail. Tu peux la couper à tout moment : <strong>Réglages → Statistiques d'usage</strong>. L'application fonctionne à l'identique.</p>
+<p>Dans la version 1.4.8, quelques actions sont aussi mesurées, jamais leur contenu : la connexion, la création d'une habitude ou d'une tâche (seulement le fait qu'elle ait des sous-étapes ou une échéance), le lancement et la fin d'une session de focus avec sa durée en minutes. Si tu es connecté, ces mesures sont aussi rattachées à l'identifiant de ton compte, jamais à ton adresse e-mail. Elles se coupent au même endroit.</p>
+<h3>Partage</h3>
+<p>Nous ne partageons pas tes données personnelles, sauf le strict nécessaire technique : <strong>Google</strong> (connexion et paiement), <strong>Supabase</strong> (hébergement, si tu as un compte ; vérification des achats), <strong>PostHog</strong> (UE, statistiques d'usage décrites ci-dessus).</p>
+<h3>Tes droits</h3>
+<ul><li><strong>Supprimer ton compte et toutes ses données</strong>, sur le serveur et sur ce téléphone : <strong>Profil → Compte → Supprimer mon compte</strong> (version 1.4.8 : <strong>Profil → Supprimer le compte</strong>). La suppression est immédiate et irréversible. Elle ne résilie pas un abonnement Google Play, qui se résilie depuis Google Play.</li><li>Le faire <strong>sans l'application</strong> : <a href="https://gist.github.com/kanemamine/d9cffcee82ae91fa6e3265add3f01dc1">https://gist.github.com/kanemamine/d9cffcee82ae91fa6e3265add3f01dc1</a></li><li>Sans compte, désinstaller l'application efface les données du téléphone.</li></ul>
+<h3>Contact</h3>
+<p>Pour toute question : <strong><a href="mailto:aminekanem9@gmail.com">aminekanem9@gmail.com</a></strong></p>
+<hr>
+<div lang="en">
+<h2>English</h2>
+<p><strong>Synkra</strong> ("the app") respects your privacy. This policy explains what data is processed, where, and why.</p>
+<h3>Without an account: your content stays on your phone</h3>
+<p>Synkra works <strong>without an account</strong>. Your Focus sessions, your runs and their history, your tasks, subtasks and categories, and your profile (the name and colour you choose) are saved <strong>on your phone</strong>. This content does not leave your phone unless you choose: signing in does not send it. It is imported into your account only if you explicitly ask for it (Account → “Import my local data”, then “Bring it together”). Two things are sent even without an account, and neither contains this content: <strong>usage statistics tied to a random identifier</strong> (on by default, can be turned off in Settings → Usage statistics) and, if you buy or restore Synkra Pro, the <strong>purchase check</strong>, which needs no Synkra account — details below. Android's automatic backup is disabled for this data.</p>
+<h3>With an account (optional)</h3>
+<p>If you sign in with Google:</p>
+<ul><li><strong>Email address and account identifier</strong>: received from Google, to create and identify your account;</li><li><strong>Your content</strong> (sessions, runs, tasks, subtasks, categories, profile): what you create once signed in is synced with our host <strong>Supabase</strong>, sent encrypted (HTTPS), so you find it on your devices. What was already on the phone is sent only after you choose to import it (see above).</li></ul>
+<p>We <strong>do not sell</strong> your data and <strong>do not use it for advertising</strong>.</p>
+<h3>Purchases (Synkra Pro)</h3>
+<p>Synkra Pro is a <strong>Google Play subscription</strong> (monthly or yearly; 14 days free for eligible new subscribers). Payment is handled by <strong>Google Play</strong>: we never receive your card or billing address. To verify a purchase — when you buy, when you tap “Restore my purchases”, and when the app opens while a purchase exists — the app sends the <strong>purchase token</strong> Google Play gives it to our server, which asks Google and answers right away; the token is <strong>neither kept nor logged</strong>. Your phone only keeps the product name, its state and its expiry date, to work offline. Synkra Pro is tied to your <strong>Google Play account</strong>, not to a Synkra account: no Synkra account is needed to buy or restore.</p>
+<h3>Usage statistics</h3>
+<p>In the current version, a single measurement is sent: <strong>the opening of the app</strong>, with no content, to <strong>PostHog</strong>, on servers located in the <strong>European Union</strong>. It is tied to a <strong>random identifier</strong> created by the app, never to your Synkra account or your email address. You can turn it off at any time: <strong>Settings → Usage statistics</strong>. The app works exactly the same.</p>
+<p>In version 1.4.8, a few actions are also measured, never their content: signing in, creating a habit or a task (only whether it has sub-steps or a due date), starting and finishing a focus session with its duration in minutes. If you are signed in, these measurements are also tied to your account identifier, never to your email address. They are turned off in the same place.</p>
+<h3>Sharing</h3>
+<p>We do not share your personal data, except what is technically required: <strong>Google</strong> (sign-in and payment), <strong>Supabase</strong> (hosting, if you have an account; purchase verification), <strong>PostHog</strong> (EU, usage statistics described above).</p>
+<h3>Your rights</h3>
+<ul><li><strong>Delete your account and all of its data</strong>, on the server and on this phone: <strong>Profile → Account → Delete my account</strong> (version 1.4.8: <strong>Profile → Delete account</strong>). Deletion is immediate and irreversible. It does not cancel a Google Play subscription, which is cancelled from Google Play.</li><li>Do it <strong>without the app</strong>: <a href="https://gist.github.com/kanemamine/d9cffcee82ae91fa6e3265add3f01dc1">https://gist.github.com/kanemamine/d9cffcee82ae91fa6e3265add3f01dc1</a></li><li>Without an account, uninstalling the app erases the data on the phone.</li></ul>
+<h3>Contact</h3>
+<p>For any question: <strong><a href="mailto:aminekanem9@gmail.com">aminekanem9@gmail.com</a></strong></p>
+</div>
+<footer><p><a href="/synkra/confidentialite/">Confidentialité · Privacy</a> · <a href="/synkra/conditions/">Conditions · Terms</a> · <a href="/synkra/suppression/">Suppression du compte · Account deletion</a></p></footer>
+</main>
+</body>
+</html>
